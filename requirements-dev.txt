@@ -1,0 +1,7 @@
+# Development dependencies. This includes runtime requirements and tools for development.
+-r requirements.txt
+
+# Add dev-only tools below as needed, e.g.:
+# black==24.10.0
+# pytest==7.4.2
+

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ian-db"
+version = "0.1.0"
+description = "AWS IAM database management tool"
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.31.0,<3.0",
+]
+
+[tool.setuptools]
+packages = ["ian_permissions"]
+
+[tool.setuptools.package-dir]
+"" = "src"
+
